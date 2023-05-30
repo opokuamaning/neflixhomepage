@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat";
+}
+/* .hero-section {
+  background-color: #c11119;
+  background: linear-gradient(rgb(0, 0, 0), transparent, rgb(0, 0, 0)),
+    url("/images/bg-lg.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+section .h1-text{
+    font-size: 3rem;
+}
+.header img {
+  width: 150px;
+}
+
+ */
+ body{
+  background-color: rgb(31, 30, 30) !important;
+ }
+.hero-section {
+  height: 70vh;
+  background-color: #c11119;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.678)0, rgba(0, 0, 0, 0.678)60%, rgba(0, 0, 0, 0.678)100%),
+    url("/images/bg-lg.jpg");
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.hero-section-content{
+  height: 80%;
+}
+.header .btn-signin {
+  width: 100px !important;
+  height: 35px;
+  background-color: #c11119;
+}
+section .hero-h1-text{
+    font-size: 3rem;
+    font-weight: 900;
+}
+section .p-text{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+div .btn-get-started{
+  background-color: #c11119;
+}
+div .input-get-started{
+  background: rgba(0, 0, 0, 0.356);
+}
+div .input-get-started:focus{
+  background: transparent;
+}
+div .input-get-started::-webkit-input-placeholder{
+  background: transparent;
+}
+div #input-label{
+  background: transparent;
+}
+/* .tv-motion-section{
+  height: 580px;
+} */
