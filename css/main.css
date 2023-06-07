@@ -129,10 +129,14 @@ div #input-label{
 .accordion-button:hover{
   background-color: #4E4E4E !important;
 }
-.footer{
+/* .footer{
   display: flex;
   flex-direction: column;
   justify-content: start;
+  margin: auto;
+} */
+
+.footer section{
   margin: auto;
 }
 .footer-section1, .footer-section3{
@@ -140,7 +144,7 @@ div #input-label{
 }
 .footer-section2{
   width: 100%;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
   display: flex;
   justify-content: space-between;
 }
