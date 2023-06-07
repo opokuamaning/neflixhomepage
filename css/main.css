@@ -23,13 +23,12 @@ section .h1-text{
 
  */
  body{
-  background-color: rgb(31, 30, 30) !important;
+  background-color: rgb(33, 33, 33) !important;
  }
 .hero-section {
   height: 70vh;
   background-color: #c11119;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.678)0, rgba(0, 0, 0, 0.678)60%, rgba(0, 0, 0, 0.678)100%),
-    url("/images/bg-lg.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.678)0, rgba(0, 0, 0, 0.678)60%, rgba(0, 0, 0, 0.678)100%), url("../images/bg-lg.jpg");
   object-fit: cover;
   background-repeat: no-repeat;
   background-size: cover;
@@ -66,6 +65,67 @@ div .input-get-started::-webkit-input-placeholder{
 div #input-label{
   background: transparent;
 }
-/* .tv-motion-section{
-  height: 580px;
+/* .tv-section .div1, .tv-section .div2{
+  width: 50%;
+  height: 500px;
+  background-color: #c11119;
+}
+.inner-div1, .inner-div2{
+  background-color: aqua;
+  width: 90%;
+  height: 100%;
 } */
+.tv-container {
+  position: relative;
+  width: 100%;
+}
+.tv-section .div2 .inner-div2 img{
+  z-index: 2;
+}
+.tv-section .div2 .inner-div2 video{
+  position: absolute;
+  width: 73%;
+  height: auto;
+  object-fit: cover;
+  z-index: 1;
+  top: 100px;
+}
+.st-dl-div{
+  position: relative;
+}
+.stranger-things-ad{
+  position: absolute;
+  border: 2px solid #4F4E54;
+  border-radius: 15px;
+  width: 50%;
+  height: 96px;
+  background-color: black !important;
+  top: 350px;
+  z-index: 10;
+}
+.tv-container .st-img{
+  width: 51px;
+  height: 76px;
+}
+.tv-container .downloading{
+  width: 48px;
+}
+.accordion-item{
+  background-color: #2D2D2D !important;
+  color: white !important;
+  border: none !important;
+  border-radius: 0 !important ;
+}
+.accordion-body{
+  background-color: #2D2D2D !important;
+}
+.accordion-button{
+  background-color: #2D2D2D !important;
+  color: white !important;
+  font-size: 1.5rem;
+  font-weight: 400;
+  box-shadow: none;
+}
+.accordion-button:hover{
+  background-color: #4E4E4E !important;
+}

@@ -7,10 +7,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/main.css">
   <link rel="stylesheet" href="./css/bootstrap/css/bootstrap.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
   <title>Neflix Ghana</title>
 </head>
 
-<body class="container-fluid">
+<body>
   <section class="hero-section bg-info p-2 pb-5 mb-2">
     <header class="header row d-flex align-items-center justify-content-between mb-5">
       <section class="col-10 d-flex align-items-center justify-content-between m-auto">
@@ -32,25 +35,209 @@
       </div>
     </section>
   </section>
-  <section class="tv-motion-section bg-black row d-flex align-items-center justify-content-evenly mb-2">
-
-    <div class="tv-motion-text text-light col-3">
-      <h2 class="fw-bolder fs-1">Enjoy on your TV</h2>
-      <p>Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.</p>
+  <section class="tv-section bg-black d-flex justify-content-center align-content-center gap-3 p-4 mb-2">
+    <div class="div1 d-flex align-items-center justify-content-center">
+      <div class="inner-div1 d-flex flex-column justify-content-center w-75">
+        <h2 class="text-light fs-1 fw-bolder">Enjoy on your TV</h2>
+        <p class="fs-5 text-light">Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and
+          more.</p>
+      </div>
     </div>
-    <div class="col-3">
-      <!-- <video src="./videos/video-tv-0819.m4v"></video> -->
-      <img src="images/tv.png" alt="tv">
+    <div class="div2 d-flex align-items-center justify-content-center">
+      <div class="inner-div2 tv-container d-flex flex-column justify-content-center align-items-center ">
+        <img src="images/tv.png" alt="tv">
+        <video autoplay loop>
+          <source src="/videos/video-tv-0819.m4v" type="video/mp4">
+        </video>
+      </div>
     </div>
   </section>
-  <section class="bg-black row d-flex align-items-center justify-content-evenly mb-2 p-3">
-    <div class="col-3">
-      <!-- <video src="./videos/video-tv-0819.m4v"></video> -->
-      <img src="images/mobile.jpg" alt="tv" width="500">
+  <section class="tv-section bg-black d-flex justify-content-center align-content-center gap-3 p-5 mb-2">
+    <div class="div2 d-flex align-items-center justify-content-center">
+      <div class="inner-div2 st-dl-div  tv-container d-flex flex-column justify-content-center align-items-center ">
+        <img class="mobile" src="images/mobile.jpg" alt="mobile">
+        <div class="d-flex align-items-center justify-content-between bg-black stranger-things-ad p-3">
+          <img class="st-img" src="images/boxshot.png" alt="Stranger Things">
+          <div>
+            <p class="text-light fw-bold my-0">Stranger Things</p>
+            <p class="text-primary">Downloading...</p>
+          </div>
+          <img class="downloading" src="images/download-icon.gif" alt="">
+        </div>
+      </div>
     </div>
-    <div class="text-light col-4">
-      <h2 class="fw-bolder fs-1">Download your shows to watch offline</h2>
-      <p>Save your favorites easily and always have something to watch.</p>
+    <div class="div1 d-flex align-items-center justify-content-center">
+      <div class="inner-div1 d-flex flex-column justify-content-center w-75">
+        <h2 class="text-light fs-1 fw-bolder">Download your shows to watch offline</h2>
+        <p class="fs-5 text-light">Save your favorites easily and always have something to watch.</p>
+      </div>
     </div>
+  </section>
+  <section class="tv-section bg-black d-flex justify-content-center align-content-center gap-3 p-5 py-5 mb-2">
+    <div class="div1 d-flex align-items-center justify-content-center">
+      <div class="inner-div1 d-flex flex-column justify-content-center w-50">
+        <h2 class="text-light fs-1 fw-bolder">Watch everywhere</h2>
+        <p class="fs-5 text-light">Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p>
+      </div>
+    </div>
+    <div class="div2 d-flex align-items-center justify-content-center w-50">
+      <div class="inner-div2 st-dl-div  tv-container d-flex flex-column justify-content-center align-items-center ">
+        <!-- <img class="mobile" src="images/cartoon.png" alt="mobile"> -->
+      </div>
+    </div>
+  </section>
+  <section class="tv-section bg-black d-flex justify-content-center align-content-center gap-3 p-4 mb-2">
+    <div class="div2 d-flex align-items-center justify-content-center">
+      <div class="inner-div2 st-dl-div  tv-container d-flex flex-column justify-content-center align-items-center ">
+        <img class="mobile" src="images/cartoon.png" alt="mobile">
+      </div>
+    </div>
+    <div class="div1 d-flex align-items-center justify-content-center">
+      <div class="inner-div1 d-flex flex-column justify-content-center w-75">
+        <h2 class="text-light fs-1 fw-bolder">Create profiles for kids</h2>
+      </div>
+  </section>
+  <section class="bg-black pb-5 mb-1">
+    <h2 class="text-center p-5 fs-1 fw-bolder text-light">Frequently Asked Question</h2>
+    <div class="accordion-section w-75 ms-auto me-auto">
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item m-3">
+          <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+              aria-expanded="false" aria-controls="collapseOne">
+              What is Netflix?
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <p>
+                Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies,
+                anime, documentaries, and more on thousands of internet-connected devices.
+              </p>
+              <p>
+                You can watch as much as you want, whenever you want without a single commercial –
+                all for one low monthly price. There's always something new to discover and new TV shows
+                and movies are added every week!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item m-3">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              How much does Netflix cost?
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <p>
+                Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for
+                one fixed monthly fee. Plans range from US$2.99 to US$9.99 a month. No extra costs, no contracts.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item m-3">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Where can I watch?
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <p>
+                Watch anywhere, anytime. Sign in with your Netflix account to watch instantly on the web at netflix.com
+                from your personal computer or on any internet-connected device that offers the Netflix app, including
+                smart TVs, smartphones, tablets, streaming media players and game consoles.
+              </p>
+              <p>
+                You can also download your favorite shows with the iOS, Android, or Windows 10 app. Use downloads
+                to watch while you're on the go and without an internet connection. Take Netflix with you anywhere.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item m-3">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+              How do I cancel?
+            </button>
+          </h2>
+          <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <p>
+                Netflix is flexible. There are no pesky contracts and no commitments. You can easily cancel your
+                account online in two clicks. There are no cancellation fees – start or stop your account anytime.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item m-3">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+              What can I watch on Netflix?
+            </button>
+          </h2>
+          <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <p>
+                Netflix has an extensive library of feature films, documentaries, TV shows, anime, award-winning
+                Netflix originals, and more. Watch as much as you want, anytime you want.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item m-3">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+              Is Netflix good for kids?
+            </button>
+          </h2>
+          <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <p>
+                The Netflix Kids experience is included in your membership to give parents control while kids enjoy
+                family-friendly TV shows and movies in their own space.
+              </p>
+              <p>
+                Kids profiles come with PIN-protected parental controls that let you restrict the maturity rating
+                of content kids can watch and block specific titles you don’t want kids to see.
+              </p>
+            </div>
+          </div>
+        </div>
+        <h3 class="text-light text-center fw-bolder fs-6 pt-4">Ready to watch? Enter your email to create or restart your membership.</h3>
+        <div class="form-floating mb-3 d-flex col-6 me-auto ms-auto">
+          <input type="email" class="form-control input-get-started mx-1 text-light" id="floatingInput"
+            placeholder="name@example.com">
+          <label for="floatingInput" id="input-label" class="text-light">Email address</label>
+          <button class="col-3 btn btn-danger btn-get-started fw-bold">Get Started</button>
+        </div>
+      </div>
+    </div>
+    <section class="footer">
+      <section>
+        <p>Questions? Contact us.</p>
+      </section>
+      <section>
+        <div>
+
+        </div>
+        <div>
+          
+        </div>
+        <div>
+          
+        </div>
+      </section>
+      <section>
+        
+      </section>
+    </section>
   </section>
 </body>
